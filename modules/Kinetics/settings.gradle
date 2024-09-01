@@ -1,0 +1,13 @@
+include ':app', ':fouriermachines.ani.client.system'
+include ':fm.ani.client.db'
+project(':fm.ani.client.db').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fm.ani.client.db')
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')
+include ':fouriermachines.ani.client.serial'
+include ':usbSerialForAndroid'
+include ':fouriermachines.ani.client.kinetics'
+include ':fouriermachines.ani.client.scheduler'
+project(':fouriermachines.ani.client.scheduler').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.scheduler')
+include ':kinetictypes'
+project(':kinetictypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/kinetictypes')
+rootProject.name='Kinetics'

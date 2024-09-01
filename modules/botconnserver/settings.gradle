@@ -1,0 +1,16 @@
+include ':app'
+rootProject.name='botconnserver'
+
+
+include ':BoIP'
+include ':Botconnect'
+
+include ':botconntypes'
+project(':botconntypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/botconntypes')
+
+
+include ':fm.ani.client.db'
+project(':fm.ani.client.db').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fm.ani.client.db')
+
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')

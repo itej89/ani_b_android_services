@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Screens.ServoEEPROMData">
+
+
+
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="@string/ServoEEPROM"
+        android:textAlignment="center"
+        android:textColor="#109390"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView" />
+
+    <LinearLayout
+        android:id="@+id/lnrlayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <Button
+            android:id="@+id/btnTURNEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TURN"></Button>
+
+        <Button
+            android:id="@+id/btnLIFTEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIFT"></Button>
+
+        <Button
+            android:id="@+id/btnLEANEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LEAN"></Button>
+
+        <Button
+            android:id="@+id/btnTILTEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TILT"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrlayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/lnrlayout1">
+        <Button
+            android:id="@+id/btnLLOCKEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L_LOCK"></Button>
+
+        <Button
+            android:id="@+id/btnULOCKEPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U_LOCK"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtServoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#109390"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lnrlayout2" />
+    <LinearLayout
+        android:id="@+id/lnrlayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtServoName">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/txtLable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Degree"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/ADC"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/ContextContentView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lnrlayout3">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

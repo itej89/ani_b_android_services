@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_base_url">http://192.168.0.192:8080</string>
+    <string name="username">tej</string>
+    <string name="password">TEJTEJTEJ</string>
+    <string name="user_agent">Mozilla/5.0 (Android) ownCloud sample </string>
+</resources>

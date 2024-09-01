@@ -1,0 +1,12 @@
+include ':app'
+
+include ':aitypes'
+project(':aitypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/aitypes')
+
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')
+
+
+include ':fouriermachines.ani.client.ai'
+
+rootProject.name='aiserver'

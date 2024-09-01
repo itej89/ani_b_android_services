@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#FFFFFF"
+    tools:context="fm.ani.anib.Ani">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <fm.ani.anib.customcontrols.AspectFitRelativeLayout
+        android:id="@+id/ViewHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:AspectRation_Height="375px"
+        app:AspectRation_Width="668px">
+
+        <LinearLayout
+            android:layout_width="668px"
+            android:layout_height="375px"
+            android:layout_centerInParent="true"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:id="@+id/ViewLeftEye"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+
+                <RelativeLayout
+                    android:id="@+id/Imglefteye"
+                    android:layout_width="275px"
+                    android:layout_height="275px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="13px"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/eyeshape"
+                    android:tag="11">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Imglefteyeball"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="76px"
+                    android:background="@drawable/eyeballshape"
+                    android:tag="12">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Imgleftpupil"
+                    android:layout_width="70px"
+                    android:layout_height="70px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="114px"
+                    android:background="@drawable/eyepupilshape"
+                    android:tag="13">
+
+                </RelativeLayout>
+
+                <fm.ani.anib.customcontrols.shapes.Eyelid
+                    android:id="@+id/Imglefteyelid"
+                    android:layout_width="275px"
+                    android:layout_height="275px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="13px"
+                    android:alpha="0"
+                    android:tag="14">
+
+                </fm.ani.anib.customcontrols.shapes.Eyelid>
+
+                <fm.ani.anib.customcontrols.shapes.EyebrowLeft
+                    android:id="@+id/ImgLeftEyebrow"
+                    android:layout_width="275px"
+                    android:layout_height="79px"
+                    android:layout_above="@+id/Imglefteye"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8px"
+                    android:tag="15">
+
+                </fm.ani.anib.customcontrols.shapes.EyebrowLeft>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ViewRightEye"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <RelativeLayout
+                    android:id="@+id/Imgrighteye"
+                    android:layout_width="275px"
+                    android:layout_height="275px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="13px"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/eyeshape"
+                    android:tag="16">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Imgrighteyeball"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="76px"
+                    android:background="@drawable/eyeballshape"
+                    android:tag="17">
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Imgrightpupil"
+                    android:layout_width="70px"
+                    android:layout_height="70px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="114px"
+                    android:background="@drawable/eyepupilshape"
+                    android:tag="18">
+
+                </RelativeLayout>
+
+                <fm.ani.anib.customcontrols.shapes.Eyelid
+                    android:id="@+id/ImgRighteyelid"
+                    android:layout_width="275px"
+                    android:layout_height="275px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="13px"
+                    android:alpha="0"
+                    android:tag="19">
+
+                </fm.ani.anib.customcontrols.shapes.Eyelid>
+
+                <fm.ani.anib.customcontrols.shapes.EyebrowRight
+                    android:id="@+id/ImgRightEyebrow"
+                    android:layout_width="275px"
+                    android:layout_height="79px"
+                    android:layout_above="@+id/Imgrighteye"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8px"
+                    android:tag="20">
+
+                </fm.ani.anib.customcontrols.shapes.EyebrowRight>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </fm.ani.anib.customcontrols.AspectFitRelativeLayout>
+
+    <View
+        android:id="@+id/ViewHeadLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:background="@android:color/black"
+        android:visibility="visible"></View>>
+</RelativeLayout>

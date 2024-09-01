@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:src="@drawable/menubkg"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart">
+
+        </ImageView>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/appDrawer_recylerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="200dp"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>

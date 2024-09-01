@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="client.ani.fouriermachines.fouriermachinesaniclientarticulation">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <application>
+        <service
+            android:name="FrameworkInterface.InterfaceImplementation.Services.ArticulationService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

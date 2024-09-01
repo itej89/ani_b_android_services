@@ -1,0 +1,18 @@
+include ':app'
+
+include ':aitypes'
+project(':aitypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/aitypes')
+include ':aiclient'
+project(':aiclient').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/aiclient')
+
+
+include ':articulationtypes'
+project(':articulationtypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/articulationtypes')
+
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')
+
+
+include ':audio'
+include ':fouriermachines.ani.client.articulation'
+rootProject.name='articulationserver'

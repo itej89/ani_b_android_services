@@ -1,0 +1,27 @@
+include ':app', ':inputInjector', ':fmlaunchertypes'
+
+include ':articulationtypes'
+project(':articulationtypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/articulationtypes')
+
+include ':articulationclient'
+project(':articulationclient').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/articulationclient')
+
+include ':fouriermachines.ani.client.motiongraphics'
+project(':fouriermachines.ani.client.motiongraphics').projectDir=new File('/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.motiongraphics')
+
+include ':fm.ani.client.db'
+project(':fm.ani.client.db').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fm.ani.client.db')
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')
+include ':kinetictypes'
+project(':kinetictypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/kinetictypes')
+include ':kineticsclient'
+project(':kineticsclient').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/kineticsclient')
+include ':fouriermachines.ani.client.serial'
+project(':fouriermachines.ani.client.serial').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.serial')
+include ':usbSerialForAndroid'
+project(':usbSerialForAndroid').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/usbSerialForAndroid')
+include ':fouriermachines.ani.client.scheduler'
+project(':fouriermachines.ani.client.scheduler').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.scheduler')
+rootProject.name='FMLauncher'
+include ':loop'

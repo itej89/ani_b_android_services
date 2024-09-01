@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImgBlueCircleWShawdow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imgbluecirclewshawdow"
+        app:srcCompat="@drawable/bluecirclewshawdow" />
+
+    <ImageView
+        android:id="@+id/imgBlueCircleWithBorder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imgbluecirclewithborder"
+        app:srcCompat="@drawable/bluecirclewborder" >
+
+       </ImageView>
+
+    <ImageView
+        android:id="@+id/imgBlueCicleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imgblueciclesmall"
+        app:srcCompat="@drawable/bluecirclesmall" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fouriermachines.ani.client.mqtt" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application>
+        <service
+            android:name="org.eclipse.paho.android.service.MqttService"
+            android:exported="false" />
+    </application>
+</manifest>

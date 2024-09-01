@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fouriermachines.ani.client.system</string>
+    <string name="general_consulation_upload">/4TB/AniB/Apps/Nurse/GeneralConsultations</string>
+    <string name="general_consulation_mimetype">application/zip</string>
+ </resources>

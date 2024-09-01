@@ -1,0 +1,69 @@
+<fm.ani.anib.customcontrols.AspectFitRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AniArtViewParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:AspectRation_Height="198px"
+    app:AspectRation_Width="77px">
+
+    <FrameLayout
+        android:id="@+id/AniArtView"
+        android:layout_width="77px"
+        android:layout_height="198px"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/ImgAnimArtCurve"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:contentDescription="@string/imganimartcurve"
+            app:srcCompat="@drawable/anianimartcurve" />
+
+        <ImageView
+            android:id="@+id/ImgAnimArtArrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:contentDescription="@string/imganimartarrow"
+            app:srcCompat="@drawable/anianimartarrow" />
+
+        <ImageView
+            android:id="@+id/imgAnimArtTilt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imganimarttilt"
+            app:srcCompat="@drawable/anianimarttilt" />
+
+        <ImageView
+            android:id="@+id/imgAnimArtLift"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imganimartlift"
+            app:srcCompat="@drawable/anianimartlift" />
+
+        <ImageView
+            android:id="@+id/imgAnimArtLean"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imganimartlean"
+            app:srcCompat="@drawable/anianimartlean" />
+
+        <ImageView
+            android:id="@+id/ImgAnimArtBase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imganimartbase"
+            app:srcCompat="@drawable/anianimartbase" />
+
+        <ImageView
+            android:id="@+id/imgAnimArtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:contentDescription="@string/imganimartmobile"
+            app:srcCompat="@drawable/anianimatedartmobile" />
+    </FrameLayout>
+    >
+
+</fm.ani.anib.customcontrols.AspectFitRelativeLayout>

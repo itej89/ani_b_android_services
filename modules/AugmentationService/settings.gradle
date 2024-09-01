@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+rootProject.name = "AugmentationService"
+include ':app'
+include ':com.permissioneverywhere'
+project(':com.permissioneverywhere').projectDir=new File('/mnt/28b66b48-2ca5-463a-b90a-66eed54737f4/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/permissioneverywhere')
+
+
+include ':fm.ani.client.db'
+project(':fm.ani.client.db').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fm.ani.client.db')
+include ':fouriermachines.ani.client.common'
+project(':fouriermachines.ani.client.common').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/fouriermachines.ani.client.common')
+include ':kinetictypes'
+project(':kinetictypes').projectDir=new File('/home/tej/Documents/fmSpin/Ani/ClientApp/Android_Ani/CommonModules/kinetictypes')

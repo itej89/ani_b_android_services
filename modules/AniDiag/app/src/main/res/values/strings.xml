@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ani Diag</string>
+    <string name="imgscanning">ImgScanning</string>
+    <string name="imgconnect">ImgConnect</string>
+    <string name="imgbluecirclewshawdow">ImgBlueCircleWShawdow</string>
+    <string name="imgbluecirclewithborder">imgBlueCircleWithBorder</string>
+    <string name="imgblueciclesmall">imgBlueCicleSmall</string>
+    <string name="imgpurplecirclewshawdow">ImgPurpleCircleWShawdow</string>
+    <string name="imgpurplegear">ImgPurpleGear</string>
+    <string name="title_activity_diag">DiagActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="EEPROMAddressData">EEPROM Address Data</string>
+    <string name="ServoPAD">Servo PAD</string>
+    <string name="ServoEEPROM">Servo Data</string>
+    <string name="EEPOMLocation">EEPROM location :</string>
+    <string name="NumberOfBytes">Number Of Bytes :</string>
+    <string name="ActuatorAddress">ActuatorAddress :</string>
+    <string name="TURN">TURN</string>
+    <string name="LIFT">LIFT</string>
+    <string name="LEAN">LEAN</string>
+    <string name="TILT">TILT</string>
+    <string name="btnSetRefState">Set as Referance State</string>
+    <string name="EEPROMVALUE">EEPROM Value :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EEPROMReferanceAngleData">EEPROM Referance Degree</string>
+    <string name="Degree">Degree</string>
+    <string name="ADC">ADC</string>
+    <string name="adrl">ADRL</string>
+    <string name="hex">HEX:</string>
+    <string name="hexvalue">HexValue</string>
+    <string name="adrh">ADRH</string>
+    <string name="paramname">ParamName</string>
+    <string name="parameterdescription">ParameterDescription</string>
+    <string name="v">(V):</string>
+    <string name="bms_settings">BMS Settings</string>
+</resources>

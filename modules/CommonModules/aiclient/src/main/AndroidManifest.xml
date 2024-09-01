@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fouriermachines.ani.client.aiclient" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application>
+    <service
+        android:name="FrameworkInterface.InterfaceImplementations.Services.AIServerConveyService"
+        android:enabled="true"
+        android:exported="true"></service>
+        <service
+            android:name="FrameworkInterface.InterfaceImplementations.Services.AISTTConveyService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

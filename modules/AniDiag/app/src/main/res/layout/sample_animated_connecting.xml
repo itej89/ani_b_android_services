@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImgPurpleCircleWShawdow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imgpurplecirclewshawdow"
+        app:srcCompat="@drawable/purplecirclewshawdow" />
+
+    <ImageView
+        android:id="@+id/ImgPurpleGear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imgpurplegear"
+        app:srcCompat="@drawable/purplegear" />
+</FrameLayout>

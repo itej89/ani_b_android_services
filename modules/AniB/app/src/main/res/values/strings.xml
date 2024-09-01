@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">A.n.i</string>
+    <string name="imgscanning">ImgScanning</string>
+    <string name="imgmount">ImgMount</string>
+    <string name="imgconnect">ImgConnect</string>
+    <string name="imgbluecirclewshawdow">ImgBlueCircleWShawdow</string>
+    <string name="imgbluecirclewithborder">imgBlueCircleWithBorder</string>
+    <string name="imgblueciclesmall">imgBlueCicleSmall</string>
+    <string name="imgpurplecirclewshawdow">ImgPurpleCircleWShawdow</string>
+    <string name="imgpurplegear">ImgPurpleGear</string>
+    <string name="imganimartcurve">ImgAnimArtCurve</string>
+    <string name="imganimartarrow">ImgAnimArtArrow</string>
+    <string name="imganimarttilt">imgAnimArtTilt</string>
+    <string name="imganimartlift">imgAnimArtLift</string>
+    <string name="imganimartlean">imgAnimArtLean</string>
+    <string name="imganimartbase">ImgAnimArtBase</string>
+    <string name="imganimartmobile">imgAnimArtMobile</string>
+
+    <string name="title_activity_ani">Ani</string>
+</resources>

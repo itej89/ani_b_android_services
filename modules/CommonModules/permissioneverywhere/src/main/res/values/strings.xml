@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PermissionEverywhere</string>
+    <string name="channel_name">Permission request</string>
+</resources>
